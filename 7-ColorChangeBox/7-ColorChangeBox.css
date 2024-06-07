@@ -1,0 +1,18 @@
+.box-container {
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    min-width: 250px;
+    width: 30vh;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
